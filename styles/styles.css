@@ -1,0 +1,101 @@
+.header{
+    height: 100px;
+    background: #0F9D58;
+}
+
+.header-font{
+    font-size: 30px;
+    padding-left: 5px;
+    font-family: "Century Gothic";
+}
+
+.icon-container{
+    padding-top: 18px;
+    font-size: 40px;
+    padding-left: 30px;
+    color: white;
+}
+
+#table td, tr{
+    text-align: center;
+    padding: 0px;
+    height: 30px;
+    width: 10rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 0.05rem solid rgba(197, 197, 197, 0.486);
+}
+
+#table input{
+    height: 30px;
+    width: 10rem;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0px;
+    border: 0.05rem solid rgba(197, 197, 197, 0.486);
+    border-collapse: collapse;
+}
+#table{
+    margin: 1%;
+    border-collapse: collapse;
+    overflow: auto;
+}
+
+.labelRowCell {
+    height: 30px;
+    width: 10rem;
+    font-size: 1rem;
+    font-weight: bold;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+    border: 0.05rem solid rgba(197, 197, 197, 0.486);
+    background-color: #f1f1f1;
+}
+
+.labelColCell {
+    height: 30px;
+    width: 10rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 0.05rem solid rgba(197, 197, 197, 0.486);
+    background-color: #f1f1f1;
+}
+
+.container {
+    padding: 4%;
+}
+
+.deleteCells {
+    float: right;
+    color: red;
+    margin: 5px;
+
+}
+
+.addCells {
+    float: right;
+    color: green;
+    margin: 5px;
+
+}
+
+.selectedRowCol {
+    background-color: rgba(197, 197, 197, 0.486);
+}
+
+.column-buttons{
+    font-size: 35px;
+    float: right;
+}
+
+.row-buttons{
+    font-size: 35px;
+    float: left;
+}
+
+.fa-disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+}

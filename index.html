@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="styles/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.5.2/rxjs.umd.js"></script>
+</head>
+<body>
+<header class="header">
+    <p class="icon-container">
+        <i class="fa fa-table" aria-hidden="true"></i>
+        <span class="header-font">RxJS Sheets</span>
+    </p>
+</header>
+<div class="container">
+    <button onclick="exportTableToCSV('tableData')">Download</button>
+    <button onclick="loadData()">Load CSV</button>
+    <span><i id="addColumn" class="addCells column-buttons fa fa-plus-circle fa-3x" aria-hidden="true" onclick="addColumns()"></i></span>
+    <span><i id="deleteColumn" class="deleteCells column-buttons fa fa-minus-circle fa-3x" onclick="deleteCol()" aria-hidden="true"></i></span>
+    <table id="table">
+    </table>
+    <span><i id="addRow" class="addCells row-buttons fa fa-plus-circle fa-3x" onclick="addRows()" aria-hidden="true"></i></span>
+    <span><i id="deleteRow" class="deleteCells row-buttons fa fa-minus-circle fa-3x" onclick="deleteRow()" aria-hidden="true"></i></span>
+</div>
+<script type="text/javascript" src="src/main.js"></script>
+<script src="node_modules/rxjs/bundles/rxjs.umd.min.js"></script>
+</body>
+</html>
