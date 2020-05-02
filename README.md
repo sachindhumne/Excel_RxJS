@@ -1,6 +1,5 @@
 # SpreadSheet application using RxJS
 
-----------------------------------------------------------
 Google Sheets Application Using JavaScript, RxJS and CSS
 ----------------------------------------------------------
 1. As a user, I should be able to see all todo items fetched using a REST API.
